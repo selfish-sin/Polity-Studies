@@ -95,6 +95,38 @@ a:hover{ color:var(--ink); }
   color:var(--ink-3);
 }
 
+/* 词源小表：报头下方，小号、发丝线 */
+.etym-table-wrap{ max-width:60ch; margin-top:1.25rem; }
+.etym-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:.76rem;
+}
+.etym-table th,.etym-table td{
+  padding:.42rem .55rem;
+  border-bottom:1px solid var(--line-soft);
+  text-align:left;
+  vertical-align:top;
+  color:var(--ink-2);
+}
+.etym-table thead th{
+  border-bottom:1px solid var(--line);
+  color:var(--ink);
+  font-weight:600;
+  font-size:.68rem;
+  letter-spacing:.04em;
+}
+.etym-table td:first-child{ white-space:nowrap; color:var(--ink); }
+.etym-table tbody tr:hover td{ background:var(--bg-2); }
+
+/* 文献索引里的「与本讲的关系」一行 */
+.doc-rel{
+  margin:.12rem 0 .45rem;
+  font-size:.72rem;
+  line-height:1.5;
+  color:var(--ink-3);
+}
+
 /* ---------- 仪器 ---------- */
 .instrument{
   display:grid;
